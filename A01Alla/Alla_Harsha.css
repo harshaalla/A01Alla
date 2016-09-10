@@ -1,0 +1,156 @@
+html
+{
+background-image: url("http://i64.tinypic.com/2czq0g.jpg");
+}
+body
+{
+	color: green;
+	font-size: 20px;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    position: absolute;
+	top: 20px;
+}
+li a
+{
+	font-weight: bold;
+    display: block;
+    color: green;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active 
+{
+	font-weight: bold;
+    background-color: green;
+    color:white;
+}
+li a:hover:not(.active) 
+{
+	font-weight: bold;
+    background-color: lightblue;
+}
+img
+{
+	display: block;
+	margin: auto;
+	position: absolute;
+	top:10%;
+	left: 80%;
+	width: 250px;
+	height: 250px;
+}
+iframe
+{
+display: block;
+	margin: auto;
+	position: absolute;
+	top:42%;
+	left: 12%;
+	width:560px;
+	height:315px;
+}
+p
+{
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	color: red;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+text-align: center;
+font-size: 300%;
+font-style: italic;
+font-weight: bold;
+color: blueviolet;
+}
+a:hover 
+{
+background-color: green;
+text-align: center;
+}
+form{
+	position: absolute;
+	left: 12%;
+	top: 18%;
+}
+footer
+{
+	position: absolute;
+	top:95%;
+	left: 40%;
+	color: red;
+	font-size: 18px;
+	font-weight: bolder;
+}
+hr
+{
+	position: absolute;
+	top: 110px;
+	width: 420px;
+	left: 460px;
+}
+.bit
+{
+	position: absolute;
+	top: 360px;
+	left:150px;
+	width: 100px;
+	height: 50px;
+}
+.git
+{
+	position: absolute;
+	top: 350px;
+	left:250px;
+	width: 115px;
+	height: 60px;
+}
+.fb
+{
+	position: absolute;
+	top: 350px;
+	left:380px;
+	width: 115px;
+	height: 60px;
+}
+.gmail
+{
+	position: absolute;
+	top: 350px;
+	left:500px;
+	width: 135px;
+	height: 70px;
+}
+.linked
+{
+	position: absolute;
+	top: 335px;
+	left:620px;
+	width: 135px;
+	height: 90px;
+}
+.head
+{
+	text-align: center;
+	font-size: 200%;
+	font-style: italic;
+	font-weight: bold;
+	color: deepskyblue;
+}
+h2
+{
+text-align: center;
+font-size: 250%;
+font-style: oblique;
+font-weight: bold;
+color: brown;
+}
